@@ -1,0 +1,25 @@
+{
+  "name": "aws-book-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghiftee/aws-book-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghiftee/aws-book-practice/issues"
+  },
+  "homepage": "https://github.com/Ghiftee/aws-book-practice#readme",
+  "dependencies": {
+    "eslint": "^7.30.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1"
+  }
+}

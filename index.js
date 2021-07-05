@@ -1,6 +1,7 @@
 /* eslint-disable no-use-before-define */
 
-function Book (title, author, id) { //file has too many classes error
+function Book(title, author, id) { //file has too many classes error
+
   //creates a book with title, author and id
   this.title = title;
   this.author = author;
@@ -80,11 +81,12 @@ class BookClass {
   
   addBook(e) {
     // Get the value from the form
+
     const title = document.getElementById('title').value;
     const author = document.getElementById('author').value;
 
     // Generate a random book id
-    let id = Math.random() * 100;
+    const id = Math.random() * 100;
 
     // create a new book class
     const newBook = new Book(title, author, id);
